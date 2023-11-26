@@ -1,0 +1,7 @@
+.home__wrapper{
+  display:flex;
+  justify-content: space-between;
+  width: 98%;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.header__wrapper{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+   
+    
+}
+
+.header_body{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+}

@@ -7,8 +7,8 @@ const Home = () => {
     <div className="home__wrapper">
       <div className="home__box">
         {
-          products.map(item => (
-            <Product name={item.name} image={item.image} price={item.priceCents / 100} />
+          products.map(product => (
+            <Product name={product.name} image={product.image} price={product.priceCents / 100} />
           ))
         }
       </div>

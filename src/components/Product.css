@@ -1,0 +1,42 @@
+.product__image{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.product__imagebox{
+  background-color: purple;
+  width: 20vw;
+  height: 37vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__wrapper{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 50vh;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.product__wrapper h1{
+  font-size: 1.5rem;
+}
+
+.product__wrapper h2{
+  font-size: 1rem;
+}
+
+.product__wrapper button{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}

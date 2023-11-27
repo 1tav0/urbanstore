@@ -10,6 +10,9 @@ const Product = ({name, image, price}) => {
           <h1>{name}</h1>
           <h2>{price}</h2>
           <button>Add To Cart</button>
+          <div>
+            store
+          </div>
     </div>
   )
 }

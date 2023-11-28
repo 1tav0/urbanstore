@@ -4,20 +4,36 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 20px;
-   
-    
+    padding-top: 10px;
 }
 
 .header_body{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   gap: 100px;
+   gap: 10px;
 }
 
-.cart{
+.header__caretop{
+    font-size: 10px;
+}
+
+.header__carebottom{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__option{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header__basket{
+    display: flex;
+    color: white;
+    gap: 5px;
 }

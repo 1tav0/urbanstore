@@ -20,8 +20,9 @@ const Header = () => {
       </Stack>
           <div>
           <Stack direction="row" spacing={2}>
-             <Avatar alt="cat pic" src={pic}  />
+             <Avatar alt="cat pic" src={pic}  />\<img width="32" height="32" src="https://img.icons8.com/arcade/64/shopping-cart--v2.png" alt="shopping-cart--v2"/>
           </Stack>
+            
           </div>
       </div>
       

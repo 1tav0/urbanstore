@@ -1,17 +1,99 @@
 .header__wrapper{
-    display: flex;
+    /* display: flex;
     background-color: black;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10px;
-   
-    
+    padding-top: 10px; */
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    height: 13vh;
 }
 
 .header_body{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; */
+ }
+
+.header__main{
+    /* background-color: green; */
+    display:flex;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    border-bottom: 1px solid black;
+}
+
+.header__logo{
+    width: 100px;
+    object-fit:contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header__input{
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+
+.header__searchicon{
+    padding: 4.4px;
+    background-color: #cd9042;
+}
+
+.header__icon{
+    height: 15px;
+    width: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__search{
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #CD9042; */
+}
+
+.header__buttons{
+    display: flex;
+    gap: 13px;
+}
+
+.header__authentication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__caretop{
+    font-size: 10px;
+}
+
+.header__carebottom{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header__basket{
+    display: flex;
+    color: white;
+    gap: 5px;
 }

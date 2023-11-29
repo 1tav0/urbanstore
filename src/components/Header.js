@@ -45,7 +45,9 @@ const Header = () => {
         </div>
         <div className="header__buttons">
           <Button variant="outlined" endIcon={<ShirtIcon className='header__icon'/>}>Shirts</Button>
-          <Button variant="outlined" endIcon={<PantsIcon className='header__icon'/>}>Pants</Button>
+          <Link to='/pants'>
+            <Button variant="outlined" endIcon={<PantsIcon className='header__icon'/>}>Pants</Button>
+          </Link>
           <Button variant="outlined" endIcon={<ShoesIcon className='header__icon'/>}>Shoes</Button>
         </div>
         <div className="header__authentication">

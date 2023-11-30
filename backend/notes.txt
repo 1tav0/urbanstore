@@ -1,0 +1,11 @@
+npm init to initialize 
+touch server.js 
+npm i express 
+npm i nodemon -D
+npm install -D jest supertest 
+-supertest is a framework to test apis specifically 
+-in the package.json file we must add a new script call it "test" with the command "jest --watchAll" this flag so code reruns everytime the code changes which is useful to see it side by side as your making changes 
+
+npm test - to run in the terminal 
+
+npm install http-errors for error handling 

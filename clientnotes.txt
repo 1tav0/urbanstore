@@ -1,0 +1,53 @@
+react makes a script for testing in package.json when we run npx create-react-app
+
+must use the react-testing libray
+
+getByLabelText(/username/i) means findme the input that has this label
+
+getByText(/username/i) is similar 
+
+
+/*******JEST and UNIT TESTING************/
+-Jest is a js testing frameworkused to automate testing of your code 
+
+Types of tests:   
+  Unit Testing - Testing individual functions that together make up the entire code base logic 
+
+  Integration Testing - Software modules or functions that are integrated together are tested as a group 
+
+  End To End Testing - This involves the automated testing the entire software or completed major parts of the software. Involves using PupeteerJS along with Jest.
+
+  To Start BLANK PROJECT: 
+    1. npm init -y
+    2. npm install --save-dev jest 
+    3. create test folder 
+      a. create test --watchAll --verbose --coverage file myFirst.test.js and make a script for "test" 
+***functions for jest 
+describe("", ()=>{})
+test("", ()=>{})
+expect()
+toBe() for primitive type comparison 
+toEqual() for reference type comparison 
+beforeEach() runs before each test 
+afterEach() runs after every test (used for clean ups)
+beforeAll() runs before all test just once -runs first 
+afterAll() runs after all test runs just once
+
+
+***************END TO END TESTING*****************
+-unlike unit testing, end to end testing is long and more complex.
+-we can run end2end testing with jest puppeteer but also with CYPRESS 
+- npm install cypress -D downloads a broswer that will be able to test our code in a real world environment
+- go to package.json and write a script command to be able to run this in the terminal 
+"e2e": "cypress open" run it using npm run e2e
+
+how to use it efficiently: use firebase emulator to create a mock database and mock user authentication which allow to test apps efficiently in an environment that looks like production
+
+why cypress?
+  - all in one testing framework, assertion library, with mocking & stubbing 
+  - focus on E2E & component Testing --real world testing how the user will make use of app
+  - runs in the browser and wrote in js 
+  - good performance and can be intergrated in CI/CD easily 
+  - Native access to the DOM and to your app 
+  - Greate developer UX 
+  - Generally not flaky if you follow the best practices 

@@ -8,7 +8,7 @@ const Home = () => {
       <div className="home__box">
         {
           products.map(product => (
-            <Product name={product.name} image={product.image} price={product.priceCents / 100} rating={2} />
+            <Product name={product.name} image={product.image} price={product.priceCents / 100} rating={2} key={product.id}/>
           ))
         }
       </div>

@@ -15,7 +15,8 @@ function App() {
         <Routes>
           <Route path='/pants' element={<Pants/>} />
           <Route path='/' element={<Home />} />
-          <Route path='/login' element={<Login />} />
+          <Route path='/login' element={<Login submit={values => {alert(JSON.stringify(values))}
+          } />} />
           <Route path='/orders' element={<Orders />} />
           <Route path='/basket' element={<Basket />} />
         </Routes>
